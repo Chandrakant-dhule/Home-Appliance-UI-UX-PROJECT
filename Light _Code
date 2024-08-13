@@ -1,4 +1,4 @@
-[14:29, 8/13/2024] chandu😉: import SwiftUI
+import SwiftUI
 
 ruct LIGHTView: View {
 
@@ -25,7 +25,7 @@ label: {
 Image("img_group_26")
 
 frame(width: getRelativeWidth(50.0), height: getRelativeWidth(50.0), alignment: .center) background (RoundedCorners (topLeft: 25.0, topRight: 25.0, ||||| bottomleft: 25.0, bottomRight: 25.0) fill(LinearGradient(gradient: Gradient(colors: [ColorConstants .Gray7007f, ColorConstants .Gray9007f]), startPoint: .topLeading, endPoint: bottomTrailing))) padding(.all, getRelativeWidth(6.0)) padding(.vertical, getRelativeHeight(6.0)) padding(.horizontal, getRelativeWidth(6.0))
-[14:29, 8/13/2024] chandu😉: hideNavigationBar()
+hideNavigationBar()
 
 Frame(width: getRelativeWidth(62.0), height: getRelativeWidth(62.0), alignment: .center)
 
@@ -64,7 +64,7 @@ Text(StringConstants.kublLight)
 Font(FontScheme.kPoppinsBold(size; getRelativeHeight(25.0)))
 
 .fontWeight(.bold)
-[14:30, 8/13/2024] chandu😉: frame(width: getRelativeWidth(208.0), height: getRelativeHeight(4.6),
+frame(width: getRelativeWidth(208.0), height: getRelativeHeight(4.6),
 
 alignment: center)
 
@@ -113,7 +113,7 @@ scaledToFit()
 Text(StringConstants.kLblon)
 
 Font(FontScheme,kInterRegular(size: getRelativeHeight(16.0)))
-[14:31, 8/13/2024] chandu😉: bottomRight: 40.0)
+bottomRight: 40.0)
 
 stroke(LinearGradient(gradient: Gradient(colors: [ColorConstants. WhiteA700, ColorConstants
 
